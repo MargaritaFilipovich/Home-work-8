@@ -1,0 +1,63 @@
+.text-box :only-child {
+    color: red !important;
+}
+
+.text-box :first-child {
+    color: pink;
+}
+
+p#greycol {
+    color: grey;
+}
+
+p:nth-child(7) {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.kapec:hover {
+    color: red;
+    background-color: black;
+} 
+.monday:focus {
+    color: aqua;
+    background-color: blanchedalmond;
+}
+.tuesday:hover {
+    color: darkcyan;
+    background-color: aquamarine;
+}
+.wednesday:visited {
+    color: blue;
+}
+.thursday:link {
+    color: coral;
+    background-color: chocolate;
+}
+.friday:disabled {
+    color: deepskyblue;
+}
+.work:nth-child(even) {
+    color: aquamarine;
+    background-color: blue;
+}
+.home:nth-child(odd) {
+    color: white;
+    background-color: blue;
+}
+.history:nth-child(n+3) {
+    color: white;
+    background-color: lightskyblue;
+}
+.english:nth-child(-n+2) {
+    color: white;
+    background-color: cornflowerblue;
+}
+.paint:first-child {
+    color: mediumblue;
+    background-color: aquamarine;
+}
+                                   
